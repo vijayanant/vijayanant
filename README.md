@@ -1,34 +1,36 @@
-# Hi, I'm Vijay.
+# Vijay Anant
 
-By day (and often by night), I love figuring out how complex things work and trying to build them simpler. 
+Software engineer based in Bengaluru. Mostly working on distributed systems, functional programming, and cryptography.
 
-My home on the internet is [vijayanant.com](https://vijayanant.com), where I write down my thoughts on software architecture and design. But here on GitHub, this is my workbench—the place where I actually try to build the things I talk about.
+### What I am working on
 
-### On the Workbench
+**Akshara**  
+A local-first Sovereign Application Platform and Identity-and-State Engine designed to build "Digital Sanctuaries." I am deeply interested in trust-agnostic systems that don't rely on central servers for state reconciliation. Akshara implements a multi-tier Merkle-DAG taxonomy (Manifests, Index Blocks, Data Blocks) to stage, coalesce, and compile state entirely offline. If you're interested in the theory behind this, I am documenting the architectural journey in my [Exploring the Sovereign Web](https://vijayanant.com/posts/exploring-the-sovereign-web/content-addressing/) essay series.
 
-- **[Akshara](https://github.com/vijayanant/akshara):** My attempt at building a Sovereign Application Platform and Identity-and-State Engine. It uses a local-first, trust-agnostic cryptographic framework with a native three-tier Merkle-DAG taxonomy. It's a challenging, fun space to be in.
-- **[Chronicle-AI](https://github.com/vijayanant/chronicle-ai):** Tinkering with a local-first, privacy-aware Sovereign Intelligence Engine for content creators.
-- **Going back to school:** I'm currently diving deep into the mathematics behind Machine Learning. It's humbling, but I'm enjoying the process.
+[![Akshara](https://github-readme-stats.vercel.app/api/pin/?username=vijayanant&repo=akshara&theme=transparent&hide_border=true)](https://github.com/vijayanant/akshara)
 
-### What's in my bag
+**Chronicle-AI**  
+An AI-based architectural linter and "narrative auditor". It uses a local vector index and reasoning model to audit code against Architectural Decision Records (ADRs) without relying on cloud LLMs. By treating design intent as an executable constraint, it catches architectural violations before they merge. I wrote about this experiment in detail in [Compiled Intent: Enforcing Software Architecture with Local AI](https://vijayanant.com/posts/compiled-intent/).
 
-I usually reach for Rust, Haskell, or Python. I'm deeply interested in:
-- Local-First Architecture & P2P Sync
-- Cryptography (End-to-End Encryption, Merkle-DAGs)
-- Functional Programming
+[![Chronicle-AI](https://github-readme-stats.vercel.app/api/pin/?username=vijayanant&repo=chronicle-ai&theme=transparent&hide_border=true)](https://github.com/vijayanant/chronicle-ai)
 
-### Selected Writing
+**Math for ML**  
+I'm currently diving deep into the mathematics behind Machine Learning from first principles. I've published my personalized, self-paced roadmap as a public gist: [Curriculum: Mathematical Foundations of AI](https://gist.github.com/vijayanant/563dc82cb419367eb52c19c34ac76883).
 
-I try to make sure I only publish when I have something worthwhile to say about architecture or systems. Here are a few pieces I'm proud of:
-- [The Anatomy of a Permanent Web](https://vijayanant.com/posts/exploring-the-sovereign-web/content-addressing/)
-- [The Ghost Bit Paradox](https://vijayanant.com/posts/the-ghost-bit-paradox/)
-- [Driving AI Code: Why TDD is Essential in the LLM Era](https://vijayanant.com/posts/driving-ai-code-why-test-driven-development-is-essential-in-the-llm-era/)
-- [A Practical Guide to Architectural Quanta](https://vijayanant.com/posts/architectural-quantum-modular-deployable-architecture/)
 
-### Say Hello
+### My Writings
 
-If you are interested in functional programming, cryptography, or sovereign tech—or if you just want to point out a bug in my code—I'd love to chat. You can find more on my [blog](https://vijayanant.com) or reach me at hello@vijayanant.com.
+I occasionally write about software architecture and design at [vijayanant.com](https://vijayanant.com). I try to make sure I only publish when I have something worthwhile to say. 
 
----
+- **[The Anatomy of a Permanent Web](https://vijayanant.com/posts/exploring-the-sovereign-web/content-addressing/)**  
+  *How content addressing (hashes) replaces location addressing (URLs) to build a permanent web.*
+- **[The Ghost Bit Paradox](https://vijayanant.com/posts/the-ghost-bit-paradox/)**  
+  *Why semantic integrity survives lenient encodings and binary corruption.*
+- **[Driving AI Code: Why TDD is Essential in the LLM Era](https://vijayanant.com/posts/driving-ai-code-why-test-driven-development-is-essential-in-the-llm-era/)**  
+  *Using Test-Driven Development to prevent AI hallucinations and maintain code integrity.*
+- **[A Practical Guide to Architectural Quanta](https://vijayanant.com/posts/architectural-quantum-modular-deployable-architecture/)**  
+  *How to identify hidden deployment coupling and break down architectural quanta.*
+
+### Stats
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vijayanant&layout=compact&theme=transparent&hide_border=true)
